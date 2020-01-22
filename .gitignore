@@ -1,0 +1,6 @@
+.DS_Store
+.htaccess
+autoload.php
+bootstrap.php
+etc/
+functions.php
