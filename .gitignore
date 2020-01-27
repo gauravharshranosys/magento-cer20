@@ -2,5 +2,5 @@
 .htaccess
 autoload.php
 bootstrap.php
-etc/
+/etc/
 functions.php
