@@ -15,7 +15,8 @@ class Create extends \Magento\Framework\App\Action\Action
 
 	public function execute()
 	{
-		
+		$resultPage = $this->_pageFactory->create();
+		return $resultPage;
 	}
 }
 
