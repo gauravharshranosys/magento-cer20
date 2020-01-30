@@ -1,7 +1,7 @@
 <?php
 namespace Ranosys\Custom\Controller\Register;
 
-class Create extends \Magento\Framework\App\Action\Action
+class Listing extends \Magento\Framework\App\Action\Action
 {
 	protected $_pageFactory;
 

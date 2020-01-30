@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
     <menu>
-    <add id="Ranosys_Custom::seller" title="Manage sellers" module="Ranosys_Custom" sortOrder="10" action="seller1/listing" resource="Ranosys_Custom::seller" parent="Magento_Catalog::catalog"/>
+    <add id="Ranosys_Custom::seller" title="Manage sellers" module="Ranosys_Custom" sortOrder="10" action="seller/listing" resource="Ranosys_Custom::seller" parent="Magento_Catalog::catalog"/>
     </menu>
 </config>

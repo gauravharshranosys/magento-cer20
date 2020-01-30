@@ -1,0 +1,15 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../lib/internal/Magento/Framework/ObjectManager/etc/config.xsd">
+    <type name="Magento\Framework\View\Element\UiComponent\DataProvider\CollectionFactory">
+        <arguments>
+            <argument name="collections" xsi:type="array">
+                <item name="ranosys_custom_blog_collection" xsi:type="string">Ranosys\Custom\Model\ResourceModel\Blog\Collection</item>
+            </argument>
+        </arguments>
+    </type>
+    <virtualType name="Ranosys\Custom\Model\ResourceModel\blog\Collection" type="Magento\Framework\View\Element\UiComponent\DataProvider\SearchResult">
+        <arguments>
+            <argument name="mainTable" xsi:type="string">blog_table</argument>
+            <argument name="resourceModel" xsi:type="string">Ranosys\Custom\Model\ResourceModel\Blog</argument>
+        </arguments>
+    </virtualType>
+</config>

@@ -1,5 +1,5 @@
 {
-    "seller_table": {
+    "blog_table": {
         "column": {
             "entity_id": true,
             "name": true,
