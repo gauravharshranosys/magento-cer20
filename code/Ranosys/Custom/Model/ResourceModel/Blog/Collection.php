@@ -4,7 +4,7 @@ namespace Ranosys\Custom\Model\ResourceModel\Blog;
 class Collection extends \Magento\Framework\Model\ResourceModel\Db\Collection\AbstractCollection
 {
 	protected $_idFieldName = 'entity_id';
-	protected $_eventPrefix = 'ranosys_custom_blog_collection_data_source';
+	protected $eventPrefix = 'ranosys_custom_blog_collection_data_source';
 	protected $_eventObject = 'blog_collection';
 
 	/**
