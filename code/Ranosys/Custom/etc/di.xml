@@ -2,14 +2,14 @@
     <type name="Magento\Framework\View\Element\UiComponent\DataProvider\CollectionFactory">
         <arguments>
             <argument name="collections" xsi:type="array">
-                <item name="admin_blogs_listing_data_source" xsi:type="string">Ranosys\Custom\Model\ResourceModel\Blog\Collection</item>
+                <item name="admin_sellers_listing_data_source" xsi:type="string">Ranosys\Custom\Model\ResourceModel\Seller\Collection</item>
             </argument>
         </arguments>
     </type>
-    <virtualType name="Ranosys\Custom\Model\ResourceModel\Blog\Collection" type="Magento\Framework\View\Element\UiComponent\DataProvider\SearchResult">
+    <virtualType name="Ranosys\Custom\Model\ResourceModel\Seller\Collection" type="Magento\Framework\View\Element\UiComponent\DataProvider\SearchResult">
         <arguments>
             <argument name="mainTable" xsi:type="string">blog_table</argument>
-            <argument name="resourceModel" xsi:type="string">Ranosys\Custom\Model\ResourceModel\Blog</argument>
+            <argument name="resourceModel" xsi:type="string">Ranosys\Custom\Model\ResourceModel\Seller</argument>
         </arguments>
     </virtualType>
 </config>

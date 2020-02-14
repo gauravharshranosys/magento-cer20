@@ -12,4 +12,14 @@ xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/et
     		<column name="entity_id"/>
 		</constraint>
 	</table>
+	<table name="blog_post_table" resource="default" comment="Create blog post table using declarative schema">
+		<column xsi:type="int" name="blog_id" padding="10" identity="true" unsigned="true" nullable="false" comment="Blog Id"/>
+		<column xsi:type="varchar" name="title" nullable="false" length="255" comment="Title"/>
+		<column xsi:type="text" name="description" nullable="false" comment="Description"/>
+        <column xsi:type="int" name="blogs_entity_id" nullable="true" comment="Seller"/>
+        <constraint xsi:type="primary" referenceId="PRIMARY">
+    		<column name="blog_id"/>
+		</constraint>
+		<constraint xsi:type="foreign" referenceId="BLOG_POST_TABLE_BLOGS_ENTITY_ID_BLOG_TABLE_ENTITY_ID" table="blog_post_table" column="blogs_entity_id" referenceTable="blog_table" referenceColumn="entity_id" onDelete="CASCADE"/>
+	</table>
 </schema>

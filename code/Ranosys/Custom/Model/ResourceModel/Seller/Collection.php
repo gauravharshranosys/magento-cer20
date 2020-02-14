@@ -14,7 +14,7 @@ class Collection extends \Magento\Framework\Model\ResourceModel\Db\Collection\Ab
 	 */
 	protected function _construct()
 	{
-		$this->_init('Ranosys\Custom\Model\Blog', 'Ranosys\Custom\Model\ResourceModel\Blog');
+		$this->_init('Ranosys\Custom\Model\Seller', 'Ranosys\Custom\Model\ResourceModel\Seller');
 	}
 
 }

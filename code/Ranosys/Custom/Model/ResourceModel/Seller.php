@@ -2,7 +2,7 @@
 namespace Ranosys\Custom\Model\ResourceModel;
 
 
-class Blog extends \Magento\Framework\Model\ResourceModel\Db\AbstractDb
+class Seller extends \Magento\Framework\Model\ResourceModel\Db\AbstractDb
 {
 	
 	public function __construct(

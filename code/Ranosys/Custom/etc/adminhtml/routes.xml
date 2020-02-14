@@ -4,5 +4,8 @@
         <route frontName="seller" id="sellers">
             <module name="Ranosys_Custom"/>
         </route>
+        <route frontName="blog" id="blogs">
+            <module name="Ranosys_Custom"/>
+        </route>
     </router>
 </config>

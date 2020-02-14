@@ -2,7 +2,7 @@
     <update handle="styles"/>
     <body>
         <referenceContainer name="content">
-            <uiComponent name="admin_blogs_listing"/>
+            <uiComponent name="admin_sellers_listing"/>
         </referenceContainer>
     </body>
 </page>

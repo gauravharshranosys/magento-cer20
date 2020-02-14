@@ -1,6 +1,6 @@
 <?php
 namespace Ranosys\Custom\Model;
-class Blog extends \Magento\Framework\Model\AbstractModel implements \Magento\Framework\DataObject\IdentityInterface
+class Seller extends \Magento\Framework\Model\AbstractModel implements \Magento\Framework\DataObject\IdentityInterface
 {
 	const CACHE_TAG = 'blog_table';
 
@@ -10,7 +10,7 @@ class Blog extends \Magento\Framework\Model\AbstractModel implements \Magento\Fr
 
 	protected function _construct()
 	{
-		$this->_init('Ranosys\Custom\Model\ResourceModel\Blog');
+		$this->_init('Ranosys\Custom\Model\ResourceModel\Seller');
 	}
 
 	public function getIdentities()
